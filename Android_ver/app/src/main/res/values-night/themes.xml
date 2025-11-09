@@ -1,0 +1,46 @@
+<resources>
+
+    <style name="Theme.RemoteMouseClient" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- 🔹 Cores principais -->
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryVariant">@color/white</item>
+        <item name="colorOnPrimary">@color/black</item>
+
+        <!-- 🔹 Cores secundárias -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+
+        <!-- 🔹 Cor da status bar -->
+        <item name="android:statusBarColor">@color/white</item>
+
+        <!-- 🔹 Ícones da status bar pretos -->
+        <item name="android:windowLightStatusBar">true</item>
+
+        <!-- 🔹 Fundo da janela -->
+        <item name="android:windowBackground">@color/white</item>
+
+        <!-- 🔹 Evita contraste automático (Android 12+) -->
+        <item name="android:enforceStatusBarContrast">false</item>
+        <item name="android:enforceNavigationBarContrast">false</item>
+    </style>
+
+    <!-- 🔹 Dialog customizado -->
+    <style name="Theme.CustomDialog" parent="Theme.AppCompat.DayNight.Dialog.Alert">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowAnimationStyle">@style/DialogPopupAnimation</item>
+    </style>
+
+    <!-- 🔹 Animação do dialog -->
+    <style name="DialogPopupAnimation">
+        <item name="android:windowEnterAnimation">@anim/dialog_popup_in</item>
+        <item name="android:windowExitAnimation">@anim/dialog_popup_out</item>
+    </style>
+
+    <!-- 🔹 Launch Splash Screen -->
+    <style name="Theme.RemoteMouseClient.Launcher" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:windowBackground">@drawable/launch_background</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+</resources>

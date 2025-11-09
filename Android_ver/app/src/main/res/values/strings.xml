@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Remote Mouse Client</string>
+    <string name="CButton">Connection Button</string>
+    <string name="MButton">Mouse Button</string>
+    <string name="ip">IP</string>
+    <string name="status">STATUS</string>
+    <string name="pc_icon">icone com imagem de um computador</string>
+    <string name="connection_ip">ip da conexão</string>
+    <string name="status_2">atual status da sessão com essa conexão</string>
+    <string name="sync_button">botão para sincronização de dados</string>
+    <string name="error_message">Erro</string>
+    <string name="item_background">background do item</string>
+    <string name="servidor_erro">Nenhum servidor encontrado!</string>
+    <string name="carregamento_erro">Houve algum erro ao tentar carregar os dados!</string>
+    <string name="app_icon">ícone do aplicativo</string>
+    <string name="yes">SIM</string>
+    <string name="no">NÃO</string>
+    <string name="connect">Conectar?</string>
+    <string name="insert_cod">Insira o código</string>
+    <string name="info">faça seus gestos neste espaço</string>
+    <string name="manual">manual</string>
+    <string name="ok">OK</string>
+</resources>

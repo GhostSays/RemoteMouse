@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ip">IP</string>
+    <string name="status">STATUS</string>
+    <string name="pc_icon">icone com imagem de um computador</string>
+    <string name="status_2">atual status da sessão com essa conexão</string>
+    <string name="sync_button">botão para sincronização de dados</string>
+    <string name="error_message">Erro</string>
+    <string name="item_background">background do item</string>
+    <string name="app_icon">ícone do aplicativo</string>
+    <string name="yes">SIM</string>
+    <string name="no">NÃO</string>
+    <string name="connect">Conectar?</string>
+    <string name="insert_cod">Insira o código</string>
+    <string name="info">faça seus gestos neste espaço</string>
+</resources>
