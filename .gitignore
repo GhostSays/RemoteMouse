@@ -26,7 +26,6 @@ local.properties
 *.keystore
 
 # APKs / AABs
-*.apk
 *.ap_
 *.aab
 
